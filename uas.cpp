@@ -20,5 +20,8 @@ int main(){
         Item item;
         cout << "\nMasukkan nama barang:";
         cin.ignore();
+        getline(cin,item.name);
+        cout << "Masukkan jumlah barang:";
+        
     }
 }
