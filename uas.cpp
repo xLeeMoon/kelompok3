@@ -38,4 +38,9 @@ int main(){
          << setw(10) << "Harga"
          << setw(10) << "Total" << endl;
 
+    for(const auto& item : items){
+        double item_total = item.quantity * item.price;
+        total += item_total; 
+    }
+
 }
