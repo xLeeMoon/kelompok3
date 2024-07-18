@@ -29,5 +29,6 @@ int main(){
         items.push_back(item);
 
         cout << "Apakah Anda ingin menambahkan barang lain?(y/n):";
-    }
+        cin >> choice;
+    }while(choice == 'y'||choice == 'Y');
 }
