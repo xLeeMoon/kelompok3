@@ -4,8 +4,13 @@
 
 using namespace std;
 
-struct item{
+struct Item{
     string name;
     int quantity;
     double price;
 };
+int main(){
+    vector<Item>item;
+    char choice;
+    double total = 0.0;
+}
