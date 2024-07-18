@@ -10,7 +10,7 @@ struct Item{
     double price;
 };
 int main(){
-    vector<Item>item;
+    vector<Item> items;
     char choice;
     double total = 0.0;
 
@@ -30,8 +30,12 @@ int main(){
 
         cout << "Apakah Anda ingin menambahkan barang lain?(y/n):";
         cin >> choice;
-    }while(choice == 'y'||choice == 'Y');
+    }while(choice == 'y' || choice == 'Y');
 
     cout << "\nDaftar Barang:\n";
     cout << left << setw(20) << "Nama Barang"
+         << setw(10) << "Jumlah"
+         << setw(10) << "Harga"
+         << setw(10) << "Total" << endl;
+
 }
