@@ -46,5 +46,6 @@ int main(){
              << setw(10) << item.price
              << setw(10) << item_total << endl;
     }
-
+    cout << "\nTotal Harga:" << total << endl;
+    return 0;
 }
