@@ -25,5 +25,9 @@ int main(){
         cin >> item.quantity;
         cout << "Masukkan harga per unit:";
         cin >> item.price;
+
+        items.push_back(item);
+
+        cout << "Apakah Anda ingin menambahkan barang lain?(y/n):";
     }
 }
