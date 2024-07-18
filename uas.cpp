@@ -22,6 +22,8 @@ int main(){
         cin.ignore();
         getline(cin,item.name);
         cout << "Masukkan jumlah barang:";
-        
+        cin >> item.quantity;
+        cout << "Masukkan harga per unit:";
+        cin >> item.price;
     }
 }
