@@ -41,6 +41,10 @@ int main(){
     for(const auto& item : items){
         double item_total = item.quantity * item.price;
         total += item_total; 
+        cout << left << setw(20) << item.name
+             << setw(10) << item.quantity
+             << setw(10) << item.price
+             << setw(10) << item_total << endl;
     }
 
 }
