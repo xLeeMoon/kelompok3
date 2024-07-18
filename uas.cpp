@@ -31,4 +31,7 @@ int main(){
         cout << "Apakah Anda ingin menambahkan barang lain?(y/n):";
         cin >> choice;
     }while(choice == 'y'||choice == 'Y');
+
+    cout << "\nDaftar Barang:\n";
+    cout << left << setw(20) << "Nama Barang"
 }
